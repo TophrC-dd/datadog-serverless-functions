@@ -53,7 +53,7 @@ OUT_OF_MEMORY_ERROR_PATTERNS = [
     r"^Exception.+java\.lang\.OutOfMemoryError:",  # Java
     r"JavaScript heap out of memory$",  # Node
     r"^MemoryError$",  # Python
-    r": failed to allocate memory \(No MemoryError\)$",  # Ruby
+    r"failed to allocate memory \(No MemoryError\)$",  # Ruby
 ]
 
 METRICS_TO_PARSE_FROM_REPORT = [
